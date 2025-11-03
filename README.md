@@ -1,4 +1,4 @@
-# 🧩 CoppeliaSim + ROS 2 Integration Guide (Ubuntu)
+#  CoppeliaSim + ROS 2 Integration Guide (Ubuntu)
 
 This guide explains **how to connect CoppeliaSim** (as a visual simulator, like Gazebo)  
 with **ROS 2** (for control logic and computation).  
@@ -6,7 +6,7 @@ It includes **first-time setup**, **launch steps**, and **reusable commands** fo
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 - **CoppeliaSim** acts as a physics/visualization engine.
 - **ROS 2** handles robot logic, planning, and control.
@@ -100,14 +100,14 @@ cd ~/CoppeliaSim
 ./coppeliaSim.sh
 ```
 
-✅ You should see:
+ You should see:(KEEP IN MIND YOU MAY NEED TO ADD A LUA OR PYTHON SCRIPT FOR CALLING THE ROS2 PLUGIN THEN ONLY IT WILL SHOW IN THE CONSOLE)
 ```
 [CoppeliaSim:loadinfo] plugin 'ROS2': loading... done.
 ```
 
 ---
 
-## 🧱 3. Verify Connection
+##  3. Verify Connection
 
 After starting simulation in CoppeliaSim:
 
@@ -151,7 +151,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z:
 
 ---
 
-## 🧰 5. Automation Script (Optional)
+##  5. Automation Script (Optional)
 
 Create a helper script `start_sim.sh`:
 
@@ -176,7 +176,7 @@ Run with:
 
 ---
 
-## 🧠 6. Quick Recap
+##  6. Quick Recap
 
 | Step | Action | Command |
 |------|---------|----------|
@@ -188,7 +188,7 @@ Run with:
 
 ---
 
-## ✅ Final Notes
+## Final Notes
 
 - Always launch CoppeliaSim **after** sourcing ROS 2.
 - The message:  
@@ -201,7 +201,7 @@ Run with:
 
 ---
 
-### 📚 References
+###  References
 
 - [CoppeliaSim ROS2 Interface Manual](https://manual.coppeliarobotics.com/en/ros2Interface.htm)
 - [CoppeliaSim ROS2 Tutorial](https://manual.coppeliarobotics.com/en/ros2Tutorial.htm)
@@ -210,7 +210,7 @@ Run with:
 
 ---
 
-🟢 **You’re all set!**  
+ **You’re all set!**  
 Next time:  
 1. Source ROS 2.  
 2. Run `./coppeliaSim.sh`.  
