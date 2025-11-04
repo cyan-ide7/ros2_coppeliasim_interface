@@ -120,7 +120,7 @@ You should see topics like `/sim_ros2_interface`, `/odom`, `/cmd_vel`, etc.
 
 ---
 
-## 🤖 4. Integrating with Your Scene
+##  4. Integrating with Your Scene
 
 ### Convert Lua Logic → ROS 2 Topics
 
