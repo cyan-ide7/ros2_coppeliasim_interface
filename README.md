@@ -15,7 +15,7 @@ It includes **first-time setup**, **launch steps**, and **reusable commands** fo
 
 ---
 
-## ⚙️ 1. Initial Setup (First Time Only)
+##  1. Initial Setup (First Time Only)
 
 ### Install ROS 2
 
@@ -80,7 +80,7 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ---
 
-## 🚀 2. Launch Procedure (Every Time You Start)
+##  2. Launch Procedure (Every Time You Start)
 
 ### Step 1: Source ROS 2 Environment
 ```bash
@@ -183,7 +183,7 @@ Run with:
 | 1 | Source ROS 2 environment | `source /opt/ros/humble/setup.bash` |
 | 2 | Launch ROS 2 nodes (optional) | `ros2 launch your_pkg your_launch.py` |
 | 3 | Start CoppeliaSim | `./coppeliaSim.sh` |
-| 4 | Open your scene & press ▶️ |  |
+| 4 | Open your scene & press  |  |
 | 5 | Verify topics | `ros2 topic list` |
 
 ---
